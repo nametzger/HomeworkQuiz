@@ -25,6 +25,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cfd-RV-8yf">
                                 <rect key="frame" x="356" y="500" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="YpL-vU-qFW" kind="show" id="gE2-3s-Mso"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Welcome to Nick's Quiz!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j4M-iI-api">
                                 <rect key="frame" x="158" y="28" width="285" height="77"/>
@@ -44,7 +47,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-349" y="243"/>
+            <point key="canvasLocation" x="-363" y="243"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="kGh-9g-VVE">
@@ -66,6 +69,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhf-Xf-V63">
                                 <rect key="frame" x="340" y="487" width="49" height="30"/>
                                 <state key="normal" title="Submit"/>
+                                <connections>
+                                    <segue destination="dOM-TN-4Ew" kind="show" id="dEH-fI-BLN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 2: If Johnny Appleseed has 7 apples and Steve takes away 4, how many apples does Johnny have left?" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3Wi-Ne-tyG">
                                 <rect key="frame" x="116" y="194" width="368" height="111"/>
