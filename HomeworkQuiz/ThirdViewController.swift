@@ -15,6 +15,6 @@ class ThirdViewController : UIViewController {
     var toPass : Int!
     
     override func viewDidLoad() {
-        FinalResults.text = "You got 2/" + String(toPass) + " answers correct!"
+        FinalResults.text = "You got " + String(toPass) + "/2 answers correct!"
     }
 }

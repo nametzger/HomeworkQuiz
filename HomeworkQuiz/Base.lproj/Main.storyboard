@@ -36,11 +36,14 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Question 1: What kind of animal is this?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jEr-uS-K4n">
-                                <rect key="frame" x="38" y="353" width="298" height="21"/>
+                                <rect key="frame" x="38" y="381" width="298" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Puppy.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="zuJ-tX-oMS">
+                                <rect key="frame" x="94" y="101" width="186" height="260"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -51,7 +54,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-255" y="243"/>
+            <point key="canvasLocation" x="116.5" y="242.5"/>
         </scene>
         <!--Second View Controller-->
         <scene sceneID="kGh-9g-VVE">
@@ -112,6 +115,13 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GxH-iV-ki3">
+                                <rect key="frame" x="155" y="367" width="65" height="30"/>
+                                <state key="normal" title="Try Again"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="thirdSegue" id="4cV-Vz-naE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -121,7 +131,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dIG-KZ-QWz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1602.5" y="242.5"/>
+            <point key="canvasLocation" x="1118.5" y="242.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Puppy.jpeg" width="189" height="267"/>
+    </resources>
 </document>
