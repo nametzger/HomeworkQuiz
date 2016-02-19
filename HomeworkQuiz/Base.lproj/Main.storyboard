@@ -41,8 +41,8 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Puppy.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="zuJ-tX-oMS">
-                                <rect key="frame" x="94" y="101" width="186" height="260"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Puppy.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="7c2-ob-LJ0">
+                                <rect key="frame" x="59" y="149" width="256" height="146"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -135,6 +135,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Puppy.jpeg" width="189" height="267"/>
+        <image name="Puppy.jpg" width="1280" height="720"/>
     </resources>
 </document>
